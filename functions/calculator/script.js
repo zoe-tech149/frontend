@@ -3,3 +3,7 @@ function addTwoAndSeven (){
 }
 
 console.log(addTwoAndSeven());
+
+const addThreeAndFour = () => {
+
+}
