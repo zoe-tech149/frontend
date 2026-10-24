@@ -21,7 +21,10 @@ function calculateProduct(numb1, numb2) {
 console.log(calculateProduct(13, 5)); //65
 
 function calculateQuotient(numb1, numb2) {
+  if (numb2 === 0) {
+    return "Error: Division by zero";
+  }
   return numb1 / numb2;
 }
 
-console.log(calculateQuotient(3, 0)); // Infinity 
+console.log(calculateQuotient(3, 0)); // Error: Division by zero
