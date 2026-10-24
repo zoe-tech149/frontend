@@ -30,8 +30,8 @@ function calculateQuotient(numb1, numb2) {
 console.log(calculateQuotient(3, 0)); // Error: Division by zero
 
 function calculateSquare(num) {
-  return Math.pow(num, 2);
+  return num ** 2;
 }
 
-console.log(calculateSquare(2, 2));
-console.log(calculateSquare(9, 2));
+console.log(calculateSquare(2));
+console.log(calculateSquare(9));
