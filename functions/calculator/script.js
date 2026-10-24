@@ -24,4 +24,4 @@ function calculateQuotient(numb1, numb2) {
   return numb1 / numb2;
 }
 
-console.log(calculateQuotient(7, 11)); // 0.6363636363636364
+console.log(calculateQuotient(3, 0)); // Infinity 
