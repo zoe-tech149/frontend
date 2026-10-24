@@ -28,3 +28,7 @@ function calculateQuotient(numb1, numb2) {
 }
 
 console.log(calculateQuotient(3, 0)); // Error: Division by zero
+
+function calculateSquare(num) {
+  return Math.pow(num, 2);
+}
