@@ -17,3 +17,5 @@ console.log(calculateDifference(17, 9)); // 8
 function calculateProduct(numb1, numb2) {
   return numb1 * numb2;
 }
+
+console.log(calculateProduct(13, 5)); //65
