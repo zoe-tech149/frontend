@@ -19,3 +19,7 @@ function calculateProduct(numb1, numb2) {
 }
 
 console.log(calculateProduct(13, 5)); //65
+
+function calculateQuotient(numb1, numb2) {
+  return numb1 / numb2;
+}
