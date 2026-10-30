@@ -5,7 +5,9 @@ const calcateBtnEl = document.querySelector("#calculateBtn");
 
 const totalBillEl = document.querySelector("#bill-total");
 
-function calculateTotal() {
-  const billValue = billAmountEl.value;
-}
+calcateBtnEl.addEventListener("click", function() {
+  
+})
+  
+
 
