@@ -30,7 +30,7 @@ calcateBtn.addEventListener("click", function() {
 
   const totalBillValue = billAmount.value * (1 + tipPercentage.value/100);
 
-  totalBill.innerText = totalBillValue.toFixed(2);
+  totalBill.innerText = `R${totalBillValue.toFixed(2)}`;
 
 })
 
