@@ -10,14 +10,16 @@ const totalBill = document.querySelector("#bill-total");
 
 calcateBtn.addEventListener("click", function() {
 
-  if(billAmount.value === "" && tipPercentage.value === "") {
+  if (billAmount.value === "" && tipPercentage.value === "") {
     inputsResult.textContent = "Please enter the bill amount and tip percentage.";
-    return;
-  }
+  } else if (billAmount.value === "") {
+    inputsResult.textContent = "Please enter the bill amount.";
+  } else if (tipPercentage.value === "") {
+    inputsResult.textContent = "Please enter the tip percentage.";
+  };
 
   const billAmountInput = Number(billAmount.value);
 
- 
 
 })
   
