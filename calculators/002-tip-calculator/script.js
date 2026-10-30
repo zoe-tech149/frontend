@@ -19,10 +19,10 @@ calcateBtn.addEventListener("click", function() {
   };
 
   const billAmountInput = Number(billAmount.value);
-  
+
   const tipPercentageInput = Number(tipPercentage.value);
   
-  if (billAmount < 0 || tipPercentage < 0) {
+  if (billAmount.value < 0 || tipPercentage.value < 0) {
     inputsResult.textContent = "Invalid bill amount or tip  percentage." 
     return
   }
