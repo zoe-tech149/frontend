@@ -15,6 +15,8 @@ calcateBtn.addEventListener("click", function() {
     return;
   }
 
+  const billAmountInput = Number(billAmount.value);
+
  
 
 })
