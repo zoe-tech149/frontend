@@ -8,39 +8,43 @@ const calcateBtn = document.querySelector("#calculateBtn");
 
 const totalBill = document.querySelector("#bill-total");
 
-calcateBtn.addEventListener("click", function() {
+calculateBtn.addEventListener("click", function() {
+
+  totalBill.textContent = "";
 
   if (billAmount.value === "" && tipPercentage.value === "") {
     inputsResult.textContent = "Please enter the bill amount and tip percentage.";
-  } else if (billAmount.value === "") {
-    inputsResult.textContent = "Please enter the bill amount.";
-  } else if (tipPercentage.value === "") {
-    inputsResult.textContent = "Please enter the tip percentage.";
     return;
-  };
+  } 
+    else if (billAmount.value === "") {
+    inputsResult.textContent = "Please enter the bill amount.";
+    return;
+    } 
+      else if (tipPercentage.value === "") {
+      inputsResult.textContent = "Please enter the tip percentage.";
+      return;
+      }
 
   const billAmountInput = Number(billAmount.value);
 
   const tipPercentageInput = Number(tipPercentage.value);
   
-  if (billAmount.value < 0 || tipPercentage.value < 0) {
+  if (billAmountInput < 0 || tipPercentageInput < 0) {
     inputsResult.textContent = "Invalid bill amount or tip  percentage." 
-    return
+    return;
   }
 
-  const totalBillValue = billAmount.value * (1 + tipPercentage.value/100);
+  const totalBillValue = billAmountInput * (1 + tipPercentageInput/100);
 
-  totalBill.innerText = `R${totalBillValue.toFixed(2)}`;
+  totalBill.textContent = `R${totalBillValue.toFixed(2)}`;
 
 })
 
-billAmount.addEventListener("input", function() {
+function clearPreviousResult() {
   inputsResult.textContent = "";
-});
+  totalBill.textContent = "";
+}
 
-tipPercentage.addEventListener("input", function() {
-  inputsResult.textContent = "";
-})
-  
-
+billAmount.addEventListener("input", clearPreviousResult);
+tipPercentage.addEventListener("input", clearPreviousResult);
 

@@ -15,10 +15,13 @@ Build a calculator that calculates the total bill given the bill amount and tip 
 - Handle button clicks with `addEventListener`
 - Calculate percentages using JavaScript `tip percentage/ bill amount * 100`
 - Format numbers using `toFixed`
-- Update page content using `innerText`
+- Update page content using `textContent`
 
 ## Demo
-![tip calculator](images/screenshot.png)
+
+![tip calculator](demo/screenshot.jpg)
+
+![tip calcularor](demo/demo.mp4)
 
 ## Future Improvements
 - 
