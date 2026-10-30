@@ -3,3 +3,5 @@ const tipPercentageEl = document.querySelector("tip-percentage");
 
 const calcateBtnEl = document.querySelector("calculateBtn");
 
+const totalBillEl = document.querySelector("bill-total")
+
