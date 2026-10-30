@@ -33,6 +33,14 @@ calcateBtn.addEventListener("click", function() {
   totalBill.innerText = totalBillValue.toFixed(2);
 
 })
+
+billAmount.addEventListener("input", function() {
+  inputsResult.textContent = "";
+});
+
+tipPercentage.addEventListener("input", function() {
+  inputsResult.textContent = "";
+})
   
 
 
