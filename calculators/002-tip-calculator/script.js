@@ -1,18 +1,24 @@
-const billAmountEl = document.querySelector("#bill-amount");
-const tipPercentageEl = document.querySelector("#tip-percentage");
-
-const calcateBtnEl = document.querySelector("#calculateBtn");
-
-const totalBillEl = document.querySelector("#bill-total");
-
+const billAmount = document.querySelector("#bill-amount");
 const billAmountResults = document.querySelector("#bill-amount-results");
 
-calcateBtnEl.addEventListener("click", function() {
+const tipPercentage = document.querySelector("#tip-percentage");
+const tipPercentageResults = document.querySelector("#percentage-results")
 
-  if(billAmountEl.value === "") {
+const calcateBtn = document.querySelector("#calculateBtn");
+
+const totalBill = document.querySelector("#bill-total");
+
+calcateBtn.addEventListener("click", function() {
+
+  if(billAmount.value === "") {
     billAmountResults.textContent = "Please enter the bill amount.";
     return;
   }
+
+  if(tipPercentage.value === "") {
+    tipPercentageResults.textContent = "Please enter the tip percentage.";
+    return;
+  }  
 
 })
   
