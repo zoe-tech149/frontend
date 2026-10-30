@@ -54,3 +54,8 @@ button:hover {
   font-weight: bold;
   margin-top: 10px;
 }
+
+#inputs-results {
+  font-style: italic;
+  font-weight: 700;
+}
