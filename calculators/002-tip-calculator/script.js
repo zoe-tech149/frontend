@@ -2,7 +2,7 @@ const billAmount = document.querySelector("#bill-amount");
 
 const tipPercentage = document.querySelector("#tip-percentage");
 
-const inputsResult = document.querySelector("#inputs-results")
+const inputsResult = document.querySelector("#inputs-results");
 
 const calcateBtn = document.querySelector("#calculateBtn");
 
@@ -19,6 +19,8 @@ calcateBtn.addEventListener("click", function() {
   };
 
   const billAmountInput = Number(billAmount.value);
+  
+  const tipPercentageInput = Number(tipPercentage.value);
   
   if (billAmount < 0 || tipPercentage < 0) {
     inputsResult.textContent = "Invalid bill amount or tip  percentage." 
