@@ -1,8 +1,5 @@
 const board = Array.from({length:25}, () => false);
 
-board[0] = true;
-board[1] = true;
-
 const gameBoard = document.querySelector("#game-board");
 
 for (let i = 0; i < board.length; i++) {
