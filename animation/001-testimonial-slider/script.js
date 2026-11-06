@@ -21,9 +21,17 @@ const testimonials = [
   },
 ];
 
-const username = document.querySelector("#avatar");
+const username = document.querySelector("#user-name");
 
-const avatar = document.querySelector("#user-image");
+const avatar = document.querySelector("#avatar");
 
 const testimonyText = document.querySelector("#testimony-text");
+
+username.textContent = testimonials[0].username;
+
+avatar.src = testimonials[0].image;
+
+testimonyText.textContent = testimonials[0].text;
+
+
 
