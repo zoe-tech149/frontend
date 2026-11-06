@@ -21,4 +21,9 @@ const testimonials = [
   },
 ];
 
-console.log(testimonials);
+const username = document.querySelector("#avatar");
+
+const avatar = document.querySelector("#user-image");
+
+const testimonyText = document.querySelector("#testimony-text");
+
