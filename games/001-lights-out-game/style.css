@@ -22,10 +22,6 @@ body {
   gap: 14px;
 }
 
-.game-title {
-  
-}
-
 #game-board {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -41,8 +37,4 @@ body {
 
 .tile.is-on {
  background-color: #facc15;
-}
-
-.tile.is-off {
- background-color: ;
 }
