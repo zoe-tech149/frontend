@@ -7,3 +7,6 @@ let numPeople = 2;
 const totalBill = billAmount +  billAmount * (tipPercentage/ 100);
 
 const amountPerPerson = totalBill / numPeople;
+
+console.log(`Total (including tip): $${totalBill}`);
+console.log(`Each person pays: $${amountPerPerson}`);
