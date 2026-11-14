@@ -1,12 +1,12 @@
-const treasure = "Global treasure"; // SHADOWED
+const treasure = "Global treasure"; 
 
 function explore() { 
-  const treasure = "Hidden treasure"; // SHADOWED
+  const treasure = "Hidden treasure"; 
 
   function discover() {
-    const treasure = "Secret treasure"; // FOUND FIRST
+    const gold = "Secret gold"; 
 
-    console.log(treasure); // Secrete treasure
+    console.log(treasure); // Hidden treasure
   }
   discover();
 }
