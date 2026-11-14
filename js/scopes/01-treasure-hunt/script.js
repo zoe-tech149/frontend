@@ -1,10 +1,12 @@
 const treasure = "Global treasure";
 
-function explore() {
+function explore() { 
   const treasure = "Hidden treasure";
 
   function discover() {
-    console.log(treasure); // Hidden treasure
+    const treasure = "Secret treasure";
+
+    console.log(treasure); // Secrete treasure
   }
   discover();
 }
