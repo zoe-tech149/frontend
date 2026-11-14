@@ -4,11 +4,12 @@ function explore() {
   const treasure = "Hidden treasure"; 
 
   function discover() {
-    const gold = "Secret gold"; 
-
-    console.log(treasure); // Hidden treasure
+    console.log(treasure); 
   }
-  discover();
+
+  return discover();
 }
 
-explore();
+const myDiscovery = explore();
+
+myDiscovery();
