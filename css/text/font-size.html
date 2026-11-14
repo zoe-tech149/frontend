@@ -6,17 +6,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Font Size</title>
+    <title>Font Size Units</title>
 
     <style>
-      h1 {
-        font-size: 40px;
+      .pixels {
+        font-size: 18px;
       }
-      p {
-        font-size: 1.2em;
+      .ems {
+        font-size: 1.5em;
       }
-      div {
-        font-size: 120%;
+      .percentage {
+        font-size: 90%;
       }
     </style>
 
@@ -24,11 +24,11 @@
 
   <body>
 
-    <h1>This is a heading.</h1>
-
-    <p>This is a paragraph.</p>
-
-    <div>This is a division.</div>
+    <div class="parent">
+      <p class="pixels">This text is 18px</p>
+      <p class="ems">This text is 1.5em</p>
+      <p class="percentage">This text is 90%</p>
+    </div>
     
   </body>
 
