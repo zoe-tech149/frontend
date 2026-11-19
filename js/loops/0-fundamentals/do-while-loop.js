@@ -1,6 +1,6 @@
-let count = 5;
+let count = 10;
 
 do {
-  console.log(count);
-  count--;
+  console.log(`Counting down: ${count}`);
+  count -= 2;
 } while (count > 0);
