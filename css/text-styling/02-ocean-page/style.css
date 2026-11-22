@@ -14,3 +14,8 @@ h1 {
 li {
   font-weight: 600;
 }
+
+a {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
