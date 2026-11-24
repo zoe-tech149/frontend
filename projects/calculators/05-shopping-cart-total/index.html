@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+    <h1>Shopping Cart</h1>
+
+    <table>
+
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price (R)</th>
+          <th>Quantity </th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <tr>
+          <td id="product-1-name"></td>
+          <td id="product-1-price"></td>
+          <td id="product-1-quantity"></td>
+        </tr>
+
+        <tr>
+          <td class="subtotal" colspan="3">Subtotal: <span id="product-1-subtotal"></span></td>
+        </tr>
+
+        <tr>
+          <td id="product-2-name"></td>
+          <td id="product-2-price"></td>
+          <td id="product-2-quantity"></td>
+        </tr>
+
+        <tr>
+          <td class="subtotal" colspan="3">Subtotal: <span id="product-2-subtotal"></span></td>
+        </tr>
+
+        <tr>
+          <td id="product-3-name"></td>
+          <td id="product-3-price"></td>
+          <td id="product-3-quantity"></td>
+        </tr>
+
+        <tr>
+          <td class="subtotal" colspan="3">Subtotal: <span id="product-3-subtotal"></span>
+          </td>
+        </tr>      
+      
+      </tbody>
+
+      <tfoot>
+        <tr>
+        <td colspan="3"> Total: <span id="cart-total" ></span></td>
+        </tr>
+      </tfoot>
+
+    </table>
+
+    <script src="script.js"></script>
+   
+  </body>
+
+</html>
