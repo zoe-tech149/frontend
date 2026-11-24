@@ -1,4 +1,4 @@
-let width = 3;
+let width = 2;
 let length = 6;
 
 for (let i = 0; i < length; i++) {
