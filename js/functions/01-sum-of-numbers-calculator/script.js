@@ -7,3 +7,5 @@ function calculateRangeSum() {
 
   console.log(sum);
 }
+
+let n = 3;
